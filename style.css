@@ -1,0 +1,675 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.navbar-brand img{
+    max-width: 100%;
+    height: fit-content;
+}
+
+.bg-lightblue {
+    background: #DEF1FB;
+
+}
+
+.cta li a {
+
+    text-align: right;
+
+}
+
+.cta li {
+    list-style: none;
+    float: right;
+    text-align: right;
+
+}
+
+.cta li.ml {
+    background-image: url(../images/icn-mail.png);
+    padding-left: 35px;
+}
+
+.cta {
+    padding-left: 30px;
+    float: right;
+    margin-bottom: 0px;
+}
+
+header .cta li {
+    float: left;
+    margin-right: 35px;
+    background: url(../images/icn-call.png) left center no-repeat;
+    padding-left: 30px;
+    line-height: 40px;
+}
+
+header .cta li:nth-child(2) {
+
+    margin-right: 0px;
+
+}
+
+
+
+
+header ul li a {
+    font-size: 16px;
+    color: #737373;
+    line-height: 22px;
+    text-align: left;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.search-style {
+    border-radius: 0px;
+    border: 1px solid #333;
+    padding: 6px 2%;
+    float: left;
+    background: 0 0;
+    color: #076d9c;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+
+}
+
+.form-style {
+    height: 100px;
+}
+
+.search-button {
+    background: #0c638e;
+    border-radius: 0;
+
+    cursor: pointer;
+    right: -1px;
+    padding: 10px;
+    top: -1px;
+    width: 43px;
+    line-height: 0;
+}
+
+.search-button i {
+    color: white;
+    font-size: 18px;
+}
+
+
+.bg-dark-blue {
+    background-color: #0D638E !important;
+}
+
+.home {
+    width: 5%;
+    height: 102%;
+    padding: 7px 30px;
+}
+
+
+
+.home i {
+    color:#49ccfc;
+    font-size: 22px;
+    text-align: center;
+}
+
+.home i:hover {
+    color: white;
+
+}
+
+.navigation-row {
+    z-index: 10;
+    margin-bottom: -12px;
+    position: sticky !important;
+    top: 0;
+}
+
+header {
+    z-index: 10;
+    position: relative;
+}
+
+
+.bnrTxt {
+    position: absolute;
+    width: 80%;
+    max-width: 730px;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.bnrTxt h1 {
+    font-size: 42px;
+    color: #fff;
+    line-height: 52px;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bnrTxt p {
+    font-size: 18px;
+    color: #f3f3f3;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 28px;
+}
+
+.bnrTxt a.btn {
+    margin-top: 3%;
+    display: table;
+    background-color: #ff7513;
+}
+
+.bnrTxt a.btn:hover {
+
+    background-color: #E05D00;
+    color: white
+}
+
+a.btn {
+    font-size: 16px;
+    padding: 0.7em 1.6em;
+    background-color: #444;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    transition: all .5s;
+    cursor: pointer;
+    margin: 50px auto 0;
+}
+
+.pod {
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+a.rgtBtn {
+    padding: 12px 30px 12px 52px;
+    display: block;
+    color: #fff;
+    float: right;
+    background: url(../images/icn-catlg2.png) 17px no-repeat #ff7514;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.intro-row {
+    padding: 70px 150px;
+}
+
+.intro-title {
+    text-align: center;
+    font-size: 22px;
+    color: #0d638e;
+    margin-bottom: 10px;
+    line-height: 38px;
+
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+.intro-para {
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    color: #414141;
+}
+
+.img {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+.pod .txtPnl h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 28px;
+    font-weight: 600;
+    text-align: center;
+
+    z-index: 1000;
+    position: relative;
+
+}
+
+.pod .txtPnl p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    z-index: 1000;
+    position: relative;
+
+}
+
+
+.col-lg-6:nth-child(1) .pod{
+    width: 92%;
+    background: url(../images/Orthopedic-Trauma-Division.jpg) center center no-repeat;
+    padding: 50px;
+    margin-right: 4%;
+    margin-left: 4%;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+    overflow: hidden;
+    background-size: cover;
+
+}
+
+.col-lg-6:nth-child(2) .pod{
+    width: 92%;
+    background: url(../images/General-Medical-Division.jpg) center center no-repeat;
+    padding: 50px;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+    overflow: hidden;
+    background-size: cover;
+
+}
+
+
+
+.col-lg-6:nth-child(2) .pod .bg {
+    position: absolute;
+    background-color: rgb(9 177 201 / 93%) !important;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+}
+
+.row .pod .bg {
+    position: absolute;
+    background-color: rgb(22 105 146 / 92%);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+}
+
+.row .pod .btn {
+    position: relative;
+    background-color: #014161;
+    margin-top: 20px;
+    z-index: 20;
+    margin: 20px auto 0;
+    display: table;
+
+
+}
+
+.row .pod .btn:hover {
+    position: relative;
+    background-color: #ff6a00;
+    color: white;
+
+
+}
+
+.choose-us-bg {
+    background-color: #ecf3f9;
+}
+
+.lft {
+    display: table;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: 4%;
+    margin-top: 18%;
+    margin-left: 3%;
+}
+
+
+.lft h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+    line-height: 38px;
+    margin-top: 25px;
+    color: #2d2d2d;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .5px;
+    vertical-align: middle;
+}
+
+.lft a {
+    padding: 10px 40px;
+    border: 2px solid #ff6a00;
+    border-radius: 6px;
+    color: #ff6a00;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.lft a:hover {
+
+    background:  #ff6a00;
+   
+    color: white;
+   
+}
+
+.whyUs ul li {
+    float: left;
+    font-size: 16px;
+    line-height: 24px;
+    width: 90%;
+    margin-right: 11%;
+    min-height: 60px;
+    margin-bottom: 2%;
+    color: #093247;
+}
+
+.usp-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+
+
+}
+
+
+.icon{
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.usp-description{
+    padding-left: 20px;
+    text-align: left;
+    
+    width: 87%;
+
+}
+
+.offer h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+    line-height: 38px;
+    margin-top: 25px;
+    color: #2d2d2d;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-align: center;
+
+}
+
+.offer p{
+    color: #093247;
+    padding: 0 28%;
+    line-height: 27px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    color: #414141;
+
+}
+
+.catalogue{
+    padding: 3%;
+    background-color: #F7F7F7;
+}
+
+.product{
+    padding: 3%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product a{
+    color: #8f8f8f;
+}
+
+.product a:hover{
+    color: #0D638E;
+}
+
+.product img{
+    margin-bottom: 20px;
+    max-width: 100%;
+    filter: grayscale(100%);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.product img:hover{
+  
+    filter: grayscale(0%);
+    
+}
+
+
+.first-product-category{
+    background-color: #09B1C9;
+    text-align: center;
+   
+    padding: 50% 5% 48% 5%;
+
+
+}
+
+.first-product-category h2{
+    font-size: 26px;
+    line-height: 34px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.first-product-category a{
+    text-align: center;
+    display: block;
+    border: 2px solid #fff;
+    padding: 8px 25px;
+    margin: 0 auto;
+    max-width: fit-content;
+    color: #fff;
+    border-radius: 4px;
+
+}
+
+.first-product-category a:hover{
+    background-color:  #fff;
+    color: #166992;
+
+}
+
+  /* TAB */
+
+  @media screen and (min-device-width: 481px) and (max-device-width: 768px)  {
+    .intro-row {
+        padding: 50px 40px;
+    }
+
+    .col-lg-6:nth-child(1) .pod {
+        
+        width: 100%;
+    
+        padding: 50px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .col-lg-6:nth-child(2) .pod {
+        margin-top: 30px;
+        width: 100%;
+        background: url(../images/General-Medical-Division.jpg) center center no-repeat;
+        padding: 50px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .carousel-item img{
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .offer p {
+        color: #093247;
+        padding: 0px 8%;
+    }
+
+    .lft {
+        
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    .first-product-category {
+       
+        padding: 5% 5% 5% 5%;
+    }
+    
+    
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width:376px){
+
+    .intro-row {
+    padding: 30px 20px;
+}
+
+.img img{
+    max-width: 100%;
+}
+
+.p-4 {
+    padding: 0.5rem!important;
+}
+
+
+.bnrTxt {
+    position: absolute;
+    width: 100%;
+    max-width: 296px;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    transform: translate(0%, 0%);
+    z-index: 100;
+}
+
+.col-lg-6:nth-child(1) .pod {
+        
+    width: 100%;
+
+    padding: 30px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.col-lg-6:nth-child(2) .pod {
+    margin-top: 20px;
+    width: 100%;
+    background: url(../images/General-Medical-Division.jpg) center center no-repeat;
+    padding: 30px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+body, html{
+    width: 375px;
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+
+.offer p {
+    
+    padding: 0 2%;
+    line-height: 27px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    color: #414141;
+}
+
+.bnrTxt h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    line-height: 1.3em;
+   
+}
+
+.lft {
+    display: table;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: 4%;
+    margin-top: 0px;
+    margin-left: 3%;
+}
+
+.py-5 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+
+.carousel-item img{
+    height: 450px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.first-product-category {
+       
+    padding: 10% 5% 10% 5% !important;
+}
+
+.form-style {
+    height: 53px;
+}
+
+
+}
+
